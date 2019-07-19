@@ -1,0 +1,111 @@
+body {
+  margin-top: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.searchbox {
+  max-width: 20rem;
+  margin: 1rem auto;
+}
+
+.input {
+  height: 3rem;
+  width: 100%;
+  box-shadow: none;
+  border: none;
+  padding: 0 1rem;
+  color: darken(#0099aa, 20);
+  border-radius: 0.2rem;
+}
+
+.button {
+  width: 100%;
+  padding: 1rem 2rem;
+  border: none;
+  margin: 1rem 0 0 0;
+  background: lighten(#0099aa, 20);
+  color: darken(#0099aa, 10);
+  font-weight: 700;
+  border-radius: 0.4rem;
+}
+
+.card {
+  position: relative;
+  background: lighten(#0099aa, 5);
+  max-width: 20rem;
+  margin: 7rem auto 2rem;
+  border: solid 5px #0099aa;
+  border-radius: 0.4rem;
+  padding: 5.5rem 2.5rem 1rem;
+}
+
+.avatar {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10rem;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+  background: #0099aa;
+  padding: 5px;
+  max-width: 100%;
+
+  transition: 0.2s;
+}
+
+.hover {
+  background: darken(#0099aa, 5);
+}
+
+.username {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.link {
+  color: white;
+  border-bottom: solid 2px white;
+  text-decoration: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.notfound {
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* some non-BEM stuff to avoid overloading the JSX for demo purposes */
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+dt,
+dd {
+  text-align: center;
+}
+
+dt {
+  font-weight: 900;
+  margin-bottom: 0.2rem;
+}
+
+dd {
+  margin: 0 0 1rem 0;
+}
